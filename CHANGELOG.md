@@ -1,4 +1,53 @@
-commit 706053b685172ccf5a202e44d860138f4624ee22
+commit 706053b685172ccf5a202e44d860138f4624ee22 (HEAD -> main, origin/main)
+Author: BUHOdeb <ismaelguzver01@gmail.com>
+Date:   Mon Sep 21 20:08:44 2026 -0300
+
+    primera ruta
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+index 0000000..e69de29
+diff --git a/config/__pycache__/__init__.cpython-314.pyc b/config/__pycache__/__init__.cpython-314.pyc
+new file mode 100644
+index 0000000..3461adf
+Binary files /dev/null and b/config/__pycache__/__init__.cpython-314.pyc differ
+diff --git a/config/__pycache__/settings.cpython-314.pyc b/config/__pycache__/settings.cpython-314.pyc
+new file mode 100644
+:
+commit 706053b685172ccf5a202e44d860138f4624ee22 (HEAD -> main, origin/main)
+Author: BUHOdeb <ismaelguzver01@gmail.com>
+Date:   Mon Sep 21 20:08:44 2026 -0300
+
+    primera ruta
+
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+new file mode 100644
+index 0000000..e69de29
+diff --git a/config/__pycache__/__init__.cpython-314.pyc b/config/__pycache__/__init__.cpython-314.pyc
+new file mode 100644
+index 0000000..3461adf
+Binary files /dev/null and b/config/__pycache__/__init__.cpython-314.pyc differ
+diff --git a/config/__pycache__/settings.cpython-314.pyc b/config/__pycache__/settings.cpython-314.pyc
+new file mode 100644
+index 0000000..2f84591
+Binary files /dev/null and b/config/__pycache__/settings.cpython-314.pyc differ
+diff --git a/config/__pycache__/urls.cpython-314.pyc b/config/__pycache__/urls.cpython-314.pyc
+new file mode 100644
+index 0000000..533e00e
+Binary files /dev/null and b/config/__pycache__/urls.cpython-314.pyc differ
+diff --git a/config/__pycache__/wsgi.cpython-314.pyc b/config/__pycache__/wsgi.cpython-314.pyc
+new file mode 100644
+index 0000000..98634dd
+Binary files /dev/null and b/config/__pycache__/wsgi.cpython-314.pyc differ
+diff --git a/config/settings.py b/config/settings.py
+index 057abf7..5c3a1dd 100644
+--- a/config/settings.py
++++ b/config/settings.py
+@@ -37,6 +37,7 @@ INSTALLED_APPS = [
+     'django.contrib.sessions',
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
++    'myApp'
 Author: BUHOdeb <ismaelguzver01@gmail.com>
 Date:   Mon Sep 21 20:08:44 2026 -0300
 
@@ -443,6 +492,7 @@ new file mode 100644
 index 0000000..faed11d
 --- /dev/null
 +++ b/myApp/apps.py
++    name = 'myApp'
 @@ -0,0 +1,5 @@
 +from django.apps import AppConfig
 +
@@ -475,8 +525,8 @@ new file mode 100644
 index 0000000..91ea44a
 --- /dev/null
 +++ b/myApp/views.py
-@@ -0,0 +1,3 @@
-+from django.shortcuts import render
+index 0000000..e69de29
+(END)
 +
 +# Create your views here.
 diff --git a/requirements.txt b/requirements.txt
